@@ -11,6 +11,8 @@ Very easy to use.
 ## How to implement in your project
 
 1. Place CalendarButton in your scene
+	1. Place a TextureButton node in your scene, then attach the "calendar_script.gd" to it
+	2. Optional: rename the node to CalendarButton
 2. From a script of your choice, get the CalendarButton node
 3. Using the node, add a connection: calendar_button_node.connect("date_selected", self, "your_func_here")
 4. Create a function "func your_func_here(date_obj)". Note that it expect an argument.
